@@ -2,8 +2,10 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <h1>
-      Django + React
-    </h1>
+    <center>
+      <h1>
+        RESTful architecture style <br /> with <br /> Django + React
+      </h1>
+    </center>
   );
 }
