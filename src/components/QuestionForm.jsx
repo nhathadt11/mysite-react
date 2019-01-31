@@ -38,7 +38,7 @@ export default class QuestionForm extends Component {
         <h3>Question</h3>
         <form onSubmit={this.handleFormSubmit}>
           <div className="row">
-            <div className="six columns">
+            <div className="row">
               <label htmlFor="questionText">Question text</label>
               <input
                 className="u-full-width"
@@ -48,7 +48,7 @@ export default class QuestionForm extends Component {
                 onChange={e => this.handleFormChange('questionText', e.target.value)}
               />
             </div>
-            <div className="six columns">
+            <div className="row">
               <label htmlFor="pubDate">Date published</label>
               <input
                 className="u-full-width"
