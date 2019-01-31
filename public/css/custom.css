@@ -1,0 +1,25 @@
+.navbar-list {
+  list-style-type: none;
+  margin-top: 2.5rem;
+  border-bottom: 1px solid #0a0a0a;
+}
+
+.navbar-list .navbar-item {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+
+.navbar-list .navbar-item:not(:first-child) {
+  margin-left: 1.5rem;
+}
+
+.navbar-list .navbar-item a {
+  text-decoration: none;
+  color: #0a0a0a;
+  letter-spacing: 0.35rem;
+}
+
+.navbar-list .navbar-item a:hover {
+  color: #0FA0CE;
+}
