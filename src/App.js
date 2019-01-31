@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Routers from './containers/Question';
+import Routes from './routes';
 import Header from './components/Header';
 import './App.css';
 
@@ -9,7 +9,7 @@ const App = () => (
     <Router>
       <div>
         <Header />
-        <Routers />
+        <Routes />
       </div>
     </Router>
   </div>
