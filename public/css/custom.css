@@ -23,3 +23,8 @@
 .navbar-list .navbar-item a:hover {
   color: #0FA0CE;
 }
+
+.navbar-list .navbar-item a.active {
+  color: #0FA0CE;
+  font-weight: 600;
+}
